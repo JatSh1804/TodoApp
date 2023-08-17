@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+p {
+  width: 100%;
+}
+
 body {
   background: #8758ff;
   display: flex;
@@ -35,6 +39,7 @@ h1 {
   width: 100%;
 }
 
+
 .todo-input {
   outline: none;
   background: none;
@@ -56,7 +61,7 @@ h1 {
   border: none;
   padding: 0.55rem;
   cursor: pointer;
-  
+  margin-bottom: 1rem;
 }
 
 .Todo {
@@ -79,4 +84,12 @@ h1 {
   color: #c5aeff;
   text-decoration: line-through;
 }
- 
+
+.btn {
+  padding: 5px 10px;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+}.Inc{background: rgb(92, 197, 92);}.Dec{
+  background-color: rgb(213, 49, 49);
+}
